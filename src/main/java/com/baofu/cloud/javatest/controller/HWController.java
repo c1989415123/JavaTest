@@ -8,8 +8,8 @@ public class HWController {
 
     @RequestMapping("/")
     public String helloworld() {
-        System.out.println("hello world!");
-        return "github hello world!1112";
+        System.out.println("2020-05-12");
+        return "2020-05-12";
     }
 
 }
