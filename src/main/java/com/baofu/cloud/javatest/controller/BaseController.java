@@ -14,7 +14,7 @@ public class BaseController {
     public String home() {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         Date date = new Date();
-        String current = "当前时间" + sdf.format(date);
+        String current = "1当前时间" + sdf.format(date);
         log.info(current);
         return current;
     }
